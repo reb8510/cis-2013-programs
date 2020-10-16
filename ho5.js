@@ -25,7 +25,7 @@ if (intGradeOption === 1)
 }
  else (intGradeOption === 2)
 {
-       if(floatTotalPts >= 90){
+       if(floatTotalPts >= 90 && floatTotalPts <= 100){
               stringFinalGrade = "A";
         } else {
        if (floatTotalPts >= 80 && floatTotalPts < 90){
@@ -37,7 +37,7 @@ if (intGradeOption === 1)
         if (floatTotalPts >= 60 && floatTotalPts <70){
                 stringFinalGrade = "D";
         } else {
-        if (floatTotalPts >= 50){
+        if (floatTotalPts < 60){
                 stringFinalGrade = "F";
         }
         }
