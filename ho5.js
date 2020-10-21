@@ -17,27 +17,43 @@ intGradeOption = parseFloat(prompt("Please enter your Final grade. 1 for pass/fa
 
 if (intGradeOption === 1)
 {
-        if(floatTotalPts >= 80){
+        if(floatTotalPts >= 80)
+        {
             stringFinalGrade = "Pass";      
-        } else{
+        }
+        else
+        {
         stringFinalGrade = "Fail";
         }
 }
- else (intGradeOption === 2)
+ else 
 {
-       if(floatTotalPts >= 90 && floatTotalPts <= 100){
+       if(floatTotalPts >= 90)
+       {
               stringFinalGrade = "A";
-        } else {
-       if (floatTotalPts >= 80 && floatTotalPts < 90){
+        }
+        else
+        {
+       if (floatTotalPts >= 80 && floatTotalPts < 90)
+       {
                stringFinalGrade = "B";
-        } else {
-       if (floatTotalPts >= 70 && floatTotalPts < 80){
+        }
+        else
+        {
+       if (floatTotalPts >= 70 && floatTotalPts < 80)
+       {
                 stringFinalGrade = "C";
-        } else {
-        if (floatTotalPts >= 60 && floatTotalPts <70){
+        }
+        else
+        {
+        if (floatTotalPts >= 60 && floatTotalPts <70)
+        {
                 stringFinalGrade = "D";
-        } else {
-        if (floatTotalPts < 60){
+        }
+        else
+        {
+        if (floatTotalPts < 60)
+        {
                 stringFinalGrade = "F";
         }
         }
