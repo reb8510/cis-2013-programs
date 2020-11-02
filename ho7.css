@@ -1,0 +1,48 @@
+body {
+    font-family: Optima, sans-serif;
+    background: #FF7F50;
+    border-style: dotted;
+}
+
+#content {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #D2691E;
+    border: 1px solid #000000;
+    border-style: dotted;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    font-family: Optima, sans-serif;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 100px;
+    font-family: Optima, sans-serif;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
