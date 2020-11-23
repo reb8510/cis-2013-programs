@@ -16,7 +16,7 @@ var generate = function ()
 	var i=0;  // sets the first Fibonacci number to 0
 	var j=1;  //sets the second Fibonacci number to 1
 	// var k;    //k is calculated by adding i+j and represents the next Fibonacci number
-	var stringOutput = i + " " + j ;//sets the initial stringOutput to include the initial values of i and j 
+	var stringOutput = i + "" + j;//sets the initial stringOutput to include the initial values of i and j 
 
 	// write whatever kind of loop you want, given the above info, to generate the appropriate
 	// number of fibonacci numbers and then post it to the html DOM 
@@ -31,7 +31,7 @@ if (isNaN(intCount) || intCount < 1 || intCount > 100) //intCount serves as the 
         {
             k = i + j;
             i = j;
-            j  = k;
+            j = k;
             stringOutput = stringOutput + k; 
             intCount--; 
         }
@@ -46,6 +46,6 @@ $("output").value = stringOutput;
 window.onload = function () 
 {
     $("total_fib").value = "";
-    $("output").value = "";
+    $("output").value ="";
     $("generate").onclick = generate; //the generate function runs
 }
